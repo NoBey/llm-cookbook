@@ -1,0 +1,14 @@
+{
+  "name": "skills-dynamic-loader",
+  "version": "1.0.0",
+  "description": "OpenAI 格式的 Skills 动态加载 Demo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "openai": "^4.x"
+  }
+}
