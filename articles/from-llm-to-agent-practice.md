@@ -262,7 +262,7 @@ codex 升级到最新版也有全局的语音输入功能
 alias claude-skip='claude --dangerously-skip-permissions'%
 ```
 
-特别是不可逆操作：删文件、发消息、提交代码、扣款。这类 tool 设计成**二次确认**，而不是一次推理直接到底。
+特别是不可逆操作：删文件、发消息、确认。这类 tool 设计成**二次确认**，而不是一次推理直接到底。
 
 ![](../img/permissions.png)
 
