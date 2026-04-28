@@ -56,7 +56,7 @@
 
 API 层把它序列化为 JSON，流式输出通过 SSE 逐 token 推送。
 
-**推理服务**
+**llm inference serving**
 - **ollama**：本地，开发调试
 - **vllm**：生产级高吞吐，连续批处理（Continuous Batching）+ PagedAttention
 
